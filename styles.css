@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+.myDiv {
+  text-align: center;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  background-color: #F1FAEE;
+  color: black;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  padding: 20px;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  font-size: 18px;
+  margin: auto;
+  padding-top: 50px;
+  padding-right: 400px;
+  padding-left: 400px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: pink;
+}
+
+footer {
+  font-family: 'EB Garamond', serif;
+  font-size: 14px;
+  color: grey;
+  margin-top: 100px;
+}
+
+main {}
