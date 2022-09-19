@@ -7,14 +7,21 @@
 }
 
 body {
+  background-size: 40px 40px;
+  background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
   font-family: 'PT Serif', serif;
-  background-color: #F1FAEE;
+  background-color: #FEFDEC;
   color: black;
 }
 
 h1 {
   font-family: 'PT Serif', serif;
   padding: 20px;
+  color: #8093F1;
+}
+
+h2 {
+  color: #8093F1;
 }
 
 p {
@@ -22,8 +29,8 @@ p {
   font-size: 18px;
   margin: auto;
   padding-top: 50px;
-  padding-right: 400px;
-  padding-left: 400px;
+  padding-right: 200px;
+  padding-left: 200px;
 }
 
 a {
@@ -31,7 +38,7 @@ a {
 }
 
 a:visited {
-  color: pink;
+  color: #8093F1;
 }
 
 footer {
