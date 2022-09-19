@@ -8,7 +8,7 @@
 
 body {
   background-size: 40px 40px;
-  background-image: radial-gradient(circle, #000000 1px, rgba(0, 0, 0, 0) 1px);
+  background-image: radial-gradient(circle, #C3CAD5 1px, rgba(0, 0, 0, 0) 1px);
   font-family: 'PT Serif', serif;
   background-color: #FEFDEC;
   color: black;
@@ -16,6 +16,8 @@ body {
 
 h1 {
   font-family: 'PT Serif', serif;
+  font-size: 50px;
+  text-shadow: 3px 3px #0A185C;
   padding: 20px;
   color: #8093F1;
 }
@@ -34,6 +36,7 @@ p {
 }
 
 a {
+  margin-top: 10px;
   color: black;
 }
 
@@ -44,7 +47,7 @@ a:visited {
 footer {
   font-family: 'EB Garamond', serif;
   font-size: 14px;
-  color: grey;
+  color: #9FAABC;
   margin-top: 100px;
 }
 
