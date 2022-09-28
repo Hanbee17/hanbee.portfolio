@@ -26,6 +26,13 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 40px;
+  text-shadow: 2px 2px #036DC9;
+  color: #BDE0FE;
+  text-align: center;
+}
+
 p {
   font-family: 'EB Garamond', serif;
   font-size: 18px;
@@ -56,6 +63,26 @@ p {
   color: #BDE0FE;
 }
 
+.nav2 {
+  margin: auto;
+  text-align: left;
+  padding-bottom: 20px;
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  max-width: 15%;
+}
+
+.nav2 a {
+  display: block;
+  color: black;
+  padding-bottom: 10px;
+}
+
+.nav2 a:visited {
+  color: #BDE0FE;
+}
+
 .img1 {
   margin: auto;
   max-width: 1000px;
@@ -65,10 +92,87 @@ p {
   padding: 10px;
 }
 
+.cover {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.cover img:hover {
+  opacity: 0.5;
+}
+
+.cover2 {
+  margin: auto;
+  max-width: 1000%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.ando {
+  margin: auto;
+  max-width: 1000%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 0px;
+}
+
+.ando-big1 {
+  max-width: 1000%;
+  height: 50%;
+  padding: 0px;
+  align-content: center;
+  text-align: center;
+  flex: 33% 10% auto;
+}
+
+.ando-big2 {
+  max-width: 500%;
+  height: 50%;
+  padding: 10px;
+  text-align: center;
+  flex: 33% 10% auto;
+}
+
+.ando-small {
+  max-width: 100%;
+  height: auto;
+  padding: 0px;
+  text-align: center;
+  flex: 33% 10% auto;
+}
+
+.app {
+  max-width: 1000%;
+  height: 50%;
+  padding: 0px;
+  align-content: center;
+  text-align: center;
+}
+
+.app img:hover {
+  opacity: 0.5;
+}
+
 footer {
   text-align: center;
   font-family: 'EB Garamond', serif;
   font-size: 14px;
   color: #9FAABC;
   margin-top: 150px;
+  margin-bottom: 20px;
 }
