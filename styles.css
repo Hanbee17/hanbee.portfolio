@@ -36,13 +36,16 @@ p {
 }
 
 .nav1 {
+  display: block;
   margin: auto;
   text-align: right;
   font-size: 16px;
+  padding-left: 20px;
   padding-bottom: 20px;
   position: absolute;
+  left: 350px;
   top: 44px;
-  right: 50px;
+  right: 20px;
 }
 
 .nav1 a {
@@ -50,28 +53,6 @@ p {
 }
 
 .nav1 a:visited {
-  color: #BDE0FE;
-}
-
-.nav2 {
-  margin: auto;
-  text-align: left;
-  font-size: 15px;
-  padding-top: 50px;
-  padding-bottom: 20px;
-  position: absolute;
-  top: 44px;
-  left: 17px;
-}
-
-.nav2 a {
- color: black;
- display: block;
- padding-left: 20px;
- padding-bottom: 10px;
-}
-
-.nav2 a:visited {
   color: #BDE0FE;
 }
 
