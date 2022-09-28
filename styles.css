@@ -92,9 +92,9 @@ p {
   padding: 10px;
 }
 
-.cover {
+.main {
   margin: auto;
-  max-width: 1000px;
+  max-width: 1000%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -103,14 +103,13 @@ p {
   padding: 0px;
 }
 
-.cover img:hover {
+.main img:hover {
   opacity: 0.5;
 }
 
 .ando {
   margin: auto;
   max-width: 1000%;
-  height: 50%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -119,16 +118,7 @@ p {
   padding: 0px;
 }
 
-.ando-big1 {
-  max-width: 1000%;
-  height: 50%;
-  padding: 0px;
-  align-content: center;
-  text-align: center;
-  flex: 33% 10% auto;
-}
-
-.ando-big2 {
+.ando-big {
   max-width: 500%;
   height: 50%;
   padding: 10px;
@@ -155,7 +145,7 @@ p {
 .app-small {
   max-width: 100%;
   height: auto;
-  padding: 100px;
+  padding: 60px;
   text-align: center;
   flex: 33% 10% auto;
 }
@@ -165,14 +155,26 @@ p {
 }
 
 .web {
+  margin: auto;
   max-width: 1000%;
-  height: auto;
-margin: auto;
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 0px;
 }
 
 .web img:hover {
   opacity: 0.5;
+}
+
+.web-small {
+  max-width: 100%;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+  flex: 33% 10% auto;
 }
 
 footer {
