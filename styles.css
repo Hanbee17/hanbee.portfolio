@@ -6,7 +6,7 @@ body {
   background-size: 40px 40px;
   background-image: radial-gradient(circle, #C3CAD5 1px, rgba(0, 0, 0, 0) 1px);
   font-family: 'PT Serif', serif;
-  background-color: #FEFDEC;
+  background-color: #FFFEE4;
   color: #212529;
 }
 
@@ -107,18 +107,6 @@ p {
   opacity: 0.5;
 }
 
-.cover2 {
-  margin: auto;
-  max-width: 1000%;
-  height: 50%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  padding: 0px;
-}
-
 .ando {
   margin: auto;
   max-width: 1000%;
@@ -151,7 +139,7 @@ p {
 .ando-small {
   max-width: 100%;
   height: auto;
-  padding: 0px;
+  padding: 10px;
   text-align: center;
   flex: 33% 10% auto;
 }
@@ -162,6 +150,14 @@ p {
   padding: 0px;
   align-content: center;
   text-align: center;
+}
+
+.app-small {
+  max-width: 100%;
+  height: auto;
+  padding: 100px;
+  text-align: center;
+  flex: 33% 10% auto;
 }
 
 .app img:hover {
