@@ -2,28 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 
-.myDiv {
-  text-align: center;
-}
-
 body {
   background-size: 40px 40px;
   background-image: radial-gradient(circle, #C3CAD5 1px, rgba(0, 0, 0, 0) 1px);
   font-family: 'PT Serif', serif;
   background-color: #FEFDEC;
-  color: black;
+  color: #212529;
 }
 
 h1 {
   font-family: 'PT Serif', serif;
-  font-size: 50px;
-  text-shadow: 3px 3px #0A185C;
+  font-size: 25px;
+  text-shadow: 2px 2px #036DC9;
+  position: relative;
+  left: 10px;
+  top: 1px;
   padding: 20px;
-  color: #8093F1;
+  color: #BDE0FE;
 }
 
 h2 {
-  color: #8093F1;
+  color: #BDE0FE;
+  text-align: center;
 }
 
 p {
@@ -35,20 +35,59 @@ p {
   padding-left: 200px;
 }
 
-a {
-  margin-top: 10px;
+.nav1 {
+  margin: auto;
+  text-align: right;
+  font-size: 16px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 44px;
+  right: 50px;
+}
+
+.nav1 a {
   color: black;
 }
 
-a:visited {
-  color: #8093F1;
+.nav1 a:visited {
+  color: #BDE0FE;
+}
+
+.nav2 {
+  margin: auto;
+  text-align: left;
+  font-size: 15px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 44px;
+  left: 17px;
+}
+
+.nav2 a {
+ color: black;
+ display: block;
+ padding-left: 20px;
+ padding-bottom: 10px;
+}
+
+.nav2 a:visited {
+  color: #BDE0FE;
+}
+
+.img1 {
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
 }
 
 footer {
+  text-align: center;
   font-family: 'EB Garamond', serif;
   font-size: 14px;
   color: #9FAABC;
-  margin-top: 100px;
+  margin-top: 150px;
 }
-
-main {}
