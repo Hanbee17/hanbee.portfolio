@@ -110,6 +110,11 @@ p {
   color: #BDE0FE;
 }
 
+.splash img {
+  display: block;
+  margin: auto;
+}
+
 .main {
   margin: auto;
   max-width: 1000%;

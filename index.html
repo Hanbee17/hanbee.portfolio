@@ -4,7 +4,7 @@
 <head>
   <title>Hanbee Cho Portfolio</title>
   <link rel="stylesheet" href="styles.css">
-  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -17,10 +17,9 @@
 
   <main>
     <div id="banner-load"></div>
-    <script>
-    var images = ['p1.jpg', 'p2.jpg', 'p3.jpg', 'p5.jpg', 'p6.jpg', 'p7.jpg', 'p8.jpg'];
- $('<img class="main" src="./photos_assets/' + images[Math.floor(Math.random() * images.length)] + '"alt="This is a randomized front images from my photography works." width="1000px" height="700px" >').appendTo('#banner-load');
-  </script>
+    <div class="splash">
+        <img id="myPicture" src="./photos_assets/p1.jpg" width="1000px" height="700px" alt="some text">
+      </div>
 
     <p>Hello! I am a Korean Graphic Designer who is interested in broad area of designs!</p>
 
